@@ -21,7 +21,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: February 18, 2026</p>
+    <p class="updated">Last updated: February 21, 2026</p>
 
     <div class="highlight">
         <strong>TL;DR:</strong> SixSeven uses on-device speech recognition only. We don't collect, store, or transmit any audio data or personal information. Your microphone data never leaves your device.
@@ -52,27 +52,44 @@
             <li>Processed entirely on-device using Apple's Speech framework</li>
             <li>Never recorded or transmitted anywhere</li>
         </ul>
+        <p>You can choose between Normal and Noisy Room microphone modes. You can also select On-Device or Server-Assisted recognition. When using Server-Assisted mode, Apple may process audio on their servers according to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>. On-Device mode keeps all processing local.</p>
     </div>
 
     <div class="section">
         <h2>Data Stored on Your Device</h2>
         <p>The following data is stored locally on your device only:</p>
         <ul>
-            <li>Detection count and statistics</li>
-            <li>Your app preferences and settings</li>
+            <li>Detection count and session statistics</li>
+            <li>Your app preferences and settings (sensitivity, sound selection, mic mode, etc.)</li>
             <li>In-app purchase records (managed by Apple)</li>
         </ul>
         <p>This data is not transmitted to us or any third party.</p>
     </div>
 
     <div class="section">
+        <h2>Global Counter (Firebase)</h2>
+        <p>SixSeven includes an optional global community counter that shows how many "six seven" detections have been made by all users worldwide. This feature uses Google Firebase Firestore to maintain an anonymous aggregate count.</p>
+        <ul>
+            <li>Only a numeric detection count is sent — no audio, no personal data, no device identifiers</li>
+            <li>The counter is fully anonymous — we cannot identify individual users or devices</li>
+            <li>Firebase may collect basic analytics data (crash reports, app usage metrics) as described in <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase's Privacy Policy</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
         <h2>Advertising</h2>
-        <p>SixSeven uses Google AdMob to display ads. AdMob may collect certain device information for ad targeting purposes as described in <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. You can remove all ads by purchasing the "Remove Ads" option within the app.</p>
+        <p>SixSeven uses Google AdMob to display interstitial ads. AdMob may collect certain device information for ad targeting purposes as described in <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. You can remove all ads by purchasing the "Remove Ads" option within the app.</p>
+        <p>The app uses Apple's App Tracking Transparency framework and will ask for your permission before any tracking occurs. You can change this at any time in your device's Settings.</p>
     </div>
 
     <div class="section">
         <h2>In-App Purchases</h2>
         <p>In-app purchases are processed by Apple through the App Store. We do not have access to your payment information. Please refer to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for details.</p>
+    </div>
+
+    <div class="section">
+        <h2>Share Feature</h2>
+        <p>SixSeven includes a "Share Score" feature that lets you share your detection stats with friends. Sharing is entirely optional and initiated by you — no data is shared automatically.</p>
     </div>
 
     <div class="section">
@@ -88,7 +105,7 @@
     <div class="section">
         <h2>Contact</h2>
         <p>If you have questions about this privacy policy, contact us at:</p>
-        <p><a href="mailto:sixsevenapp@gmail.com">sixsevenapp@gmail.com</a></p>
+        <p><a href="mailto:sixseven.app@outlook.com">sixseven.app@outlook.com</a></p>
     </div>
 
     <div class="footer">
